@@ -1,0 +1,54 @@
+# This .gitignore file is automatically generated for Unity projects.
+# It ensures that only necessary source assets and configurations are tracked by git.
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Memory Captures and Recordings
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset store packages and package cache
+/[Aa]ssets/AssetStoreTools*
+/packages/
+/Packages/manifest.json.user
+/Packages/packages-lock.json
+
+# Visual Studio / Rider / VS Code cache and generated files
+.vs/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.db
+
+# Unity Auto-generated Assets
+sysinfo.txt
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
