@@ -1,10 +1,6 @@
 # 🎮 Juego Android: El Elegido ⚡
 
 <p align="center">
-  <img src="game_banner.png" alt="El Elegido Banner" width="600px" style="border-radius: 15px; box-shadow: 0px 8px 30px rgba(186, 73, 255, 0.4); margin-bottom: 20px;" />
-</p>
-
-<p align="center">
   <a href="https://unity.com/"><img src="https://img.shields.io/badge/Made%20with-Unity-black?style=for-the-badge&logo=unity&logoColor=white&color=000000" alt="Unity" /></a>
   <a href="https://developer.android.com/"><img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android&logoColor=white&color=3DDC84" alt="Android" /></a>
   <a href="https://github.com/dqq0"><img src="https://img.shields.io/badge/Developer-dqq0-blueviolet?style=for-the-badge&logo=github&logoColor=white&color=8A2BE2" alt="Developer" /></a>
