@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Historia 1
+  m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
+  links:
+  - guid: 9d2ae201-7cd3-443b-b1a8-7c746c8bc328
+    targetGuid: e2978e94-ef4c-46d9-818b-729767b0a56a
+    portId: 0
+  - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
+    targetGuid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
+    portId: 1
+  - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
+    targetGuid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
+    portId: 2
+  - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
+    targetGuid: 2bef74ff-6b80-4554-b521-ffff886ff325
+    portId: 3
+  - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
+    targetGuid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
+    portId: 4
+  - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
+    targetGuid: 9331ea03-9db2-49b1-9168-16519e370463
+    portId: 5
+  nodes:
+  - guid: 9d2ae201-7cd3-443b-b1a8-7c746c8bc328
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor startnode
+    dialogueText: "Bienvenido a las instalaciones de la Agencia, candidato Aries.
+      Tome asiento. Su expediente t\xE9cnico es impecable, pero aqu\xED evaluamos
+      si su mente colapsar\xE1 en el vac\xEDo del espacio. \xBFEst\xE1 preparado
+      para iniciar su evaluaci\xF3n psicol\xF3gica oficial?"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -109
+      y: 100
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
+    characterSpr: {fileID: 0}
+    characterName: Aries
+    dialogueText: "(El aire en esta sala de interrogatorio es denso. Vektor no parpadea,
+      analiz\xE1ndome como a un esp\xE9cimen en un laboratorio. Una palabra en falso
+      y mi sue\xF1o se acaba aqu\xED)."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "S\xED, doctor. Estoy listo. Comencemos"
+    - "No. La presi\xF3n es absurda. Me retiro."
+    nodePosition:
+      serializedVersion: 2
+      x: 465
+      y: 100
+      width: 499
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor endnode
+    dialogueText: "Lo imaginaba. Los informes indicaban una latente tendencia a la
+      huida bajo presi\xF3n. Recoja sus cosas, Aries. La humanidad no puede depender
+      de alguien que se quiebra antes de despegar. Est\xE1 descartado."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 998
+      y: 552
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "Excelente. Ah\xF3rrese las posturas ensayadas. Revis\xE9 su simulaci\xF3n
+      orbital de ayer. Sus controles manuales fueron precisos, pero sus biosensores
+      registraron un pico de taquicardia severo. \xBFPor qu\xE9 le aterra tanto perder
+      el control, candidato?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1050
+      y: 130
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
+    characterSpr: {fileID: 0}
+    characterName: ARIES
+    dialogueText: "(Va directo a la yugular. Cassia resolvi\xF3 la misma simulaci\xF3n
+      sin alterar su pulso. Si muestro debilidad ahora, \xE9l lo usar\xE1 en mi contra).(Va
+      directo a la yugular. Cassia resolvi\xF3 la misma simulaci\xF3n sin alterar
+      su pulso. Si muestro debilidad ahora, \xE9l lo usar\xE1 en mi contra)."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "Es fisiolog\xEDa b\xE1sica ante una emergencia, doctor. Lo importante es que
+      mi mente mantuvo la calma y estabilic\xE9 la nave.Es fisiolog\xEDa b\xE1sica
+      ante una emergencia, doctor. Lo importante es que mi mente mantuvo la calma
+      y estabilic\xE9 la nave."
+    - "\"No es terror... solo fue una anomal\xEDa inesperada en los propulsores.
+      No volver\xE1 a afectar mi rendimiento.\"\"No es terror... solo fue una anomal\xEDa
+      inesperada en los propulsores. No volver\xE1 a afectar mi rendimiento.\""
+    nodePosition:
+      serializedVersion: 2
+      x: 1577
+      y: 122
+      width: 1317
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9331ea03-9db2-49b1-9168-16519e370463
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "(Vektor anota algo en su tablet sin mirarte). \"\xBFAnomal\xEDa?
+      Curioso. Es la misma palabra exacta que us\xF3 en su reporte oficial hace tres
+      a\xF1os. Ya sabe, para justificar el 'accidente' donde el resto de su equipo
+      no regres\xF3.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2913
+      y: 250
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "(Vektor saca un expediente f\xEDsico de su malet\xEDn y lo deja
+      caer sobre la mesa met\xE1lica). \"\xBFFisiolog\xEDa b\xE1sica? Qu\xE9 respuesta
+      tan cl\xEDnica, Aries. Me pregunto si us\xF3 esa misma l\xF3gica impecable
+      durante el incidente de la estaci\xF3n Titan hace tres a\xF1os... cuando perdi\xF3
+      a todo su escuadr\xF3n.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2925
+      y: -64
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

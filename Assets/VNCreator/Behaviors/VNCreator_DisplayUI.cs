@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -81,6 +81,9 @@ namespace VNCreator
             if(currentNode.backgroundSpr != null)
                 backgroundImg.sprite = currentNode.backgroundSpr;
 
+            if (previousBtn != null)
+                previousBtn.gameObject.SetActive(loadList.Count != 1);
+
             if (currentNode.choices <= 1) 
             {
                 nextBtn.gameObject.SetActive(true);
@@ -88,8 +91,6 @@ namespace VNCreator
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
                 choiceBtn3.gameObject.SetActive(false);
-
-                previousBtn.gameObject.SetActive(loadList.Count != 1);
             }
             else
             {
