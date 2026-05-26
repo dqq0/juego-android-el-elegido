@@ -1315,6 +1315,66 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1 &1011371198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011371200}
+  - component: {fileID: 1011371199}
+  m_Layer: 0
+  m_Name: VNManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1011371199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011371198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VNCreator::VNCreator.VNCreator_DisplayUI
+  story: {fileID: 11400000, guid: 3ac47292e27c26856ad8dfbd4dbb4ec7, type: 2}
+  characterNameTxt: {fileID: 2053690587}
+  dialogueTxt: {fileID: 1236659805}
+  characterImg: {fileID: 1548648291}
+  backgroundImg: {fileID: 1529280022}
+  musicSource: {fileID: 0}
+  soundEffectSource: {fileID: 0}
+  nextBtn: {fileID: 523550281}
+  previousBtn: {fileID: 460052267}
+  saveBtn: {fileID: 672824052}
+  menuButton: {fileID: 2092157681}
+  choiceBtn1: {fileID: 446084360}
+  choiceBtn2: {fileID: 1897164524}
+  choiceBtn3: {fileID: 1883126466}
+  endScreen: {fileID: 1928461400}
+  mainMenu: Assets/VNCreator/_Demo/Scenes/MainMenu.unity
+--- !u!4 &1011371200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011371198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 550.5, y: 253, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1073770537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,3 +3058,4 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 1128735939}
   - {fileID: 1342611896}
+  - {fileID: 1011371200}
