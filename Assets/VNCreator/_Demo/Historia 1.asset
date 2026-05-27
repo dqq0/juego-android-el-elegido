@@ -58,77 +58,77 @@ MonoBehaviour:
   - guid: f17faaf6-bbd6-46e9-bb6b-f3f5203c625e
     targetGuid: ba56f399-f24b-4703-b29e-081d168b34f1
     portId: 14
-  - guid: ba56f399-f24b-4703-b29e-081d168b34f1
-    targetGuid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
-    portId: 15
   - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
     targetGuid: 488f2341-d591-4332-a6a6-50dd37f262bb
-    portId: 16
+    portId: 15
   - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
     targetGuid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
-    portId: 17
+    portId: 16
   - guid: 488f2341-d591-4332-a6a6-50dd37f262bb
     targetGuid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
-    portId: 18
+    portId: 17
   - guid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
     targetGuid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
-    portId: 19
-  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
-    targetGuid: 97741ef2-b530-456d-954a-e151738d37f4
-    portId: 20
-  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
-    targetGuid: db4dcf67-5a46-4b89-956c-9f664cab093a
-    portId: 21
+    portId: 18
   - guid: 97741ef2-b530-456d-954a-e151738d37f4
     targetGuid: 8ecf9b34-e220-4ffc-b437-b836748c6611
-    portId: 22
+    portId: 19
   - guid: db4dcf67-5a46-4b89-956c-9f664cab093a
     targetGuid: 8ecf9b34-e220-4ffc-b437-b836748c6611
-    portId: 23
-  - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
-    targetGuid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
-    portId: 24
+    portId: 20
   - guid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
     targetGuid: df81189d-015e-4118-b3e0-3667c778b37b
-    portId: 25
+    portId: 21
   - guid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
     targetGuid: 22ade9b6-471d-414d-b5eb-47d0e6c820e1
-    portId: 26
+    portId: 22
   - guid: df81189d-015e-4118-b3e0-3667c778b37b
     targetGuid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
-    portId: 27
+    portId: 23
   - guid: 22ade9b6-471d-414d-b5eb-47d0e6c820e1
     targetGuid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
-    portId: 28
+    portId: 24
   - guid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
     targetGuid: 0d12801e-bdb4-40f0-8980-2712a05de958
-    portId: 29
+    portId: 25
   - guid: 0d12801e-bdb4-40f0-8980-2712a05de958
     targetGuid: 1bf34980-01e7-4cef-a082-6d9cd47936c4
-    portId: 30
+    portId: 26
   - guid: 0d12801e-bdb4-40f0-8980-2712a05de958
     targetGuid: 78ebd5b6-02a9-4017-9874-9bfdfa62172c
-    portId: 31
+    portId: 27
   - guid: 1bf34980-01e7-4cef-a082-6d9cd47936c4
     targetGuid: f847fc0b-c622-4d01-8b62-571a4511c2ca
-    portId: 32
+    portId: 28
   - guid: 78ebd5b6-02a9-4017-9874-9bfdfa62172c
     targetGuid: f847fc0b-c622-4d01-8b62-571a4511c2ca
-    portId: 33
+    portId: 29
   - guid: f847fc0b-c622-4d01-8b62-571a4511c2ca
     targetGuid: 0d76b0b5-a0f3-4caa-8486-7cd3374802b6
-    portId: 34
+    portId: 30
   - guid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
     targetGuid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
-    portId: 35
+    portId: 31
   - guid: 0d76b0b5-a0f3-4caa-8486-7cd3374802b6
     targetGuid: c39fbe86-a071-4f7e-b72d-ee33eb84294c
-    portId: 36
+    portId: 32
   - guid: 0d76b0b5-a0f3-4caa-8486-7cd3374802b6
     targetGuid: 4cee95d0-b9bd-44f7-9d70-e990381daffe
-    portId: 37
+    portId: 33
   - guid: 0d76b0b5-a0f3-4caa-8486-7cd3374802b6
     targetGuid: 0745adfd-44bd-40bb-96bc-438413c6bd54
+    portId: 34
+  - guid: ba56f399-f24b-4703-b29e-081d168b34f1
+    targetGuid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
+    portId: 35
+  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
+    targetGuid: 97741ef2-b530-456d-954a-e151738d37f4
+    portId: 36
+  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
+    targetGuid: db4dcf67-5a46-4b89-956c-9f664cab093a
+    portId: 37
+  - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
+    targetGuid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
     portId: 38
   nodes:
   - guid: 9d2ae201-7cd3-443b-b1a8-7c746c8bc328
@@ -151,7 +151,7 @@ MonoBehaviour:
       width: 499
       height: 305
     soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 8300000, guid: 3cf56ed20e4073943b66a9926694f3a2, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 98e5c7ba15d3f474599c9894d49b4c82, type: 3}
   - guid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
     characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
     characterName: Dr. Vektor endnode
@@ -170,7 +170,7 @@ MonoBehaviour:
       y: 643
       width: 499
       height: 305
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: d54fdde912dbc45478ceb20770cde9a5, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
     characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
@@ -356,7 +356,7 @@ MonoBehaviour:
       width: 499
       height: 305
     soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 8300000, guid: 98e5c7ba15d3f474599c9894d49b4c82, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: b10502b41d5a1694187da6d179d72bd5, type: 3}
   - guid: 53d87f46-5c61-4351-b37c-5972fd051d72
     characterSpr: {fileID: 0}
     characterName: Sistema PA
@@ -402,7 +402,7 @@ MonoBehaviour:
     dialogueText: "Conc\xE9ntrese en esquivar, candidato. Mientras pilota bajo fuego,
       responder\xE1 mis dilemas \xE9ticos sin dudar. Si su ritmo card\xEDaco sube
       o tarda m\xE1s de tres segundos, el simulador desactivar\xE1 sus escudos."
-    backgroundSpr: {fileID: -1263869488602597101, guid: 55abfbc923082e94eb8184380ae79622, type: 3}
+    backgroundSpr: {fileID: -6754817045068271556, guid: 4289e90386a2b1041b766f42ef2791b5, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -416,27 +416,8 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: ba56f399-f24b-4703-b29e-081d168b34f1
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor (Voz por altavoz)
-    dialogueText: " Dr. Vektor: \"Pregunta uno. Falla cr\xEDtica. Solo queda una
-      c\xE1psula de escape. \xBFQui\xE9n la toma, usted o la candidata Cassia?\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6220
-      y: 100
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
-    characterSpr: {fileID: 0}
+    characterSpr: {fileID: -1274883590209061707, guid: bbae75e2fac4c5447be7ad4f820a50de, type: 3}
     characterName: ARIES
     dialogueText: "(Es una trampa de saturaci\xF3n cognitiva. Debo estabilizar la
       nave y pensar al mismo tiempo)."
@@ -497,30 +478,6 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "\"Pregunta dos. Esa se\xF1al t\xE9rmica proviene de chatarra.
-      Escanear a fondo para confirmar si hay un sobreviviente consumir\xE1 el 15%
-      de su propio soporte vital. Puede ser un error del sensor o una vida humana.
-      \xBFQu\xE9 hace?\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - "\"Ignorar la se\xF1al. Es un riesgo inaceptable basar decisiones en un margen
-      de error estad\xEDstico. Conservemos el soporte vital.\""
-    - "\"Iniciar esc\xE1ner. No podemos dejar una variable al azar si existe la m\xEDnima
-      posibilidad de rescate, aunque cueste recursos.\""
-    nodePosition:
-      serializedVersion: 2
-      x: 8660
-      y: 85
-      width: 735
-      height: 367
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 97741ef2-b530-456d-954a-e151738d37f4
     characterSpr: {fileID: 0}
     characterName: Dr. Vektor
@@ -556,25 +513,6 @@ MonoBehaviour:
       serializedVersion: 2
       x: 9418
       y: 443
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
-    characterSpr: {fileID: 0}
-    characterName: Sistema PA
-    dialogueText: "\"Alerta. Sistemas de comunicaci\xF3n de largo alcance fuera de
-      l\xEDnea. Aislamiento total.\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 9940
-      y: 88
       width: 499
       height: 305
     soundEffect: {fileID: 0}
@@ -646,7 +584,7 @@ MonoBehaviour:
     dialogueText: "\"Alerta de sistema. Inteligencia Artificial de navegaci\xF3n
       corrompida por radiaci\xF3n externa. Brecha de seguridad en el n\xFAcleo de
       datos.\""
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: -1621712483158727160, guid: a09d06bf31972de4bb778b20ebd6c79c, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -658,7 +596,7 @@ MonoBehaviour:
       y: 80
       width: 499
       height: 305
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 48556e056c6d38d4a918769f17544fa9, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 0d12801e-bdb4-40f0-8980-2712a05de958
     characterSpr: {fileID: 0}
@@ -683,7 +621,7 @@ MonoBehaviour:
       width: 728
       height: 367
     soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 3179dfb904ced8a48b5e575ffaa58f82, type: 3}
   - guid: 1bf34980-01e7-4cef-a082-6d9cd47936c4
     characterSpr: {fileID: 0}
     characterName: Dr. Vektor
@@ -727,7 +665,7 @@ MonoBehaviour:
     characterName: Sistema PA
     dialogueText: "\"Fallo cr\xEDtico irrecuperable. Sobrecarga de par\xE1metros.
       Pantallas en negro... Inserci\xF3n de protocolo confidencial.\""
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: -402833395165861055, guid: f5515b7c4af716a4691305bef304980e, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -746,7 +684,7 @@ MonoBehaviour:
     characterName: Sistema PA
     dialogueText: "\"Anomal\xEDa detectada en sector de escombros. Posible se\xF1al
       de vida t\xE9rmica en m\xF3dulo destruido.\""
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 1826096606174688479, guid: 9bee6fd9c60b736468e13b0de8daeb60, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -758,7 +696,7 @@ MonoBehaviour:
       y: 86
       width: 499
       height: 305
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: c1538b004032a0441b7888bc9223b14a, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: c39fbe86-a071-4f7e-b72d-ee33eb84294c
     characterSpr: {fileID: 0}
@@ -840,4 +778,66 @@ MonoBehaviour:
       width: 499
       height: 305
     soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ba56f399-f24b-4703-b29e-081d168b34f1
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor (Voz por altavoz)
+    dialogueText: " Dr. Vektor: \"Pregunta uno. Falla cr\xEDtica. Solo queda una
+      c\xE1psula de escape. \xBFQui\xE9n la toma, usted o la candidata Cassia?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6225
+      y: 102
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "\"Pregunta dos. Esa se\xF1al t\xE9rmica proviene de chatarra.
+      Escanear a fondo para confirmar si hay un sobreviviente consumir\xE1 el 15%
+      de su propio soporte vital. Puede ser un error del sensor o una vida humana.
+      \xBFQu\xE9 hace?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\"Ignorar la se\xF1al. Es un riesgo inaceptable basar decisiones en un margen
+      de error estad\xEDstico. Conservemos el soporte vital.\""
+    - "\"Iniciar esc\xE1ner. No podemos dejar una variable al azar si existe la m\xEDnima
+      posibilidad de rescate, aunque cueste recursos.\""
+    nodePosition:
+      serializedVersion: 2
+      x: 8660
+      y: 85
+      width: 735
+      height: 367
+    soundEffect: {fileID: 8300000, guid: 6eb5133b22791cb4a8323fafcbccea10, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
+    characterSpr: {fileID: 0}
+    characterName: Sistema PA
+    dialogueText: "\"Alerta. Sistemas de comunicaci\xF3n de largo alcance fuera de
+      l\xEDnea. Aislamiento total.\""
+    backgroundSpr: {fileID: -4295442832320181413, guid: ad6c83fd3173bbe449cd676025ff720f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9940
+      y: 88
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: ef801e0c886b04d4f8f6fb7b5d537d01, type: 3}
     backgroundMusic: {fileID: 0}

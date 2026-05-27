@@ -96,21 +96,6 @@ namespace VNCreator
 
         IEnumerator DisplayCurrentNode()
         {
-            if (currentNode.characterName == "SISTEMA_FINAL")
-            {
-                int aptitud = PlayerStats.instance != null ? PlayerStats.instance.aptitud : 0;
-                int miedo = PlayerStats.instance != null ? PlayerStats.instance.miedo : 0;
-
-                int decision = 0;
-                // Ejemplo de lógica (puedes cambiar los números):
-                if (aptitud >= miedo + 5) decision = 0; // Final 1 (Mucha aptitud)
-                else if (miedo >= aptitud + 5) decision = 1; // Final 2 (Mucho miedo)
-                else decision = 2; // Final 3 (Equilibrado / Neutral)
-
-                NextNode(decision);
-                yield break;
-            }
-
             bool changedCharacter = false;
             bool changedBackground = false;
 
@@ -154,15 +139,31 @@ namespace VNCreator
             {
                 nextBtn.gameObject.SetActive(false);
 
+                bool isFinalChoice = currentNode.characterName == "SISTEMA_FINAL";
+                int finalDecision = -1;
+                
+                if (isFinalChoice)
+                {
+                    int aptitud = PlayerStats.instance != null ? PlayerStats.instance.aptitud : 0;
+                    int miedo = PlayerStats.instance != null ? PlayerStats.instance.miedo : 0;
+                    
+                    if (aptitud >= miedo + 5) finalDecision = 0; // Final 1 (Mucha aptitud)
+                    else if (miedo >= aptitud + 5) finalDecision = 1; // Final 2 (Mucho miedo)
+                    else finalDecision = 2; // Final 3 (Equilibrado / Neutral)
+                }
+
                 choiceBtn1.gameObject.SetActive(true);
+                choiceBtn1.interactable = !isFinalChoice || finalDecision == 0;
                 choiceBtn1.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[0];
 
                 choiceBtn2.gameObject.SetActive(true);
+                choiceBtn2.interactable = !isFinalChoice || finalDecision == 1;
                 choiceBtn2.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[1];
 
                 if (currentNode.choices == 3)
                 {
                     choiceBtn3.gameObject.SetActive(true);
+                    choiceBtn3.interactable = !isFinalChoice || finalDecision == 2;
                     choiceBtn3.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[2];
                 }
                 else
