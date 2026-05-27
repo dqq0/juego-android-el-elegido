@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 461d2fdffef7b811f8fa2c29a09f012b
+guid: 18b728b284ef8f74998eb2048a73db0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8851362514387498965
-    second: dr_vektor_0
+      213: -4713033110941087952
+    second: SIMULADOR1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dr_vektor_0
+      name: SIMULADOR1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1784
-        height: 1809
+        width: 2816
+        height: 1347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2889bf80b4a92580800000000000000
-      internalID: -8851362514387498965
+      spriteID: 037c3b73b51f79eb0800000000000000
+      internalID: -4713033110941087952
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dr_vektor_0: -8851362514387498965
+      SIMULADOR1_0: -4713033110941087952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
