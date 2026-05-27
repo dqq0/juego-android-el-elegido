@@ -401,7 +401,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 30
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 48
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 67
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 70
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 67
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 70
@@ -2065,7 +2065,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 67
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 70
@@ -2545,7 +2545,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 30
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 48
@@ -2920,7 +2920,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 67
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 70
@@ -3660,7 +3660,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 67
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 70
@@ -4030,7 +4030,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33675421ba9c616168d303c79b7c6da0, type: 3}
     m_FontSize: 30
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 48
@@ -4518,7 +4518,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: b500e52092ba8eb339deabb59d920ea3, type: 3}
     m_FontSize: 120
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 207

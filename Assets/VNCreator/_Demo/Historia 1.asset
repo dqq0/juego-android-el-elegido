@@ -23,7 +23,7 @@ MonoBehaviour:
     targetGuid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
     portId: 2
   - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
-    targetGuid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
+    targetGuid: b45a594f-ca06-44de-bb71-9c77c6db8773
     portId: 3
   - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
     targetGuid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
@@ -130,6 +130,9 @@ MonoBehaviour:
   - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
     targetGuid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
     portId: 38
+  - guid: b45a594f-ca06-44de-bb71-9c77c6db8773
+    targetGuid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
+    portId: 39
   nodes:
   - guid: 9d2ae201-7cd3-443b-b1a8-7c746c8bc328
     characterSpr: {fileID: -7922725311733026821, guid: d9efc3595bb316241a842a460bec03d2, type: 3}
@@ -152,26 +155,6 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: 98e5c7ba15d3f474599c9894d49b4c82, type: 3}
-  - guid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
-    characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
-    characterName: Dr. Vektor endnode
-    dialogueText: "Lo imaginaba. Los informes indicaban una latente tendencia a la
-      huida bajo presi\xF3n. Recoja sus cosas, Aries. La humanidad no puede depender
-      de alguien que se quiebra antes de despegar. Est\xE1 descartado."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 514
-      y: 643
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: d54fdde912dbc45478ceb20770cde9a5, type: 3}
-    backgroundMusic: {fileID: 0}
   - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
     characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
     characterName: Dr. Vektor
@@ -702,7 +685,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: 
     dialogueText: 
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: -3014034251515840949, guid: ae40951460d0c5846a863c604bcd88c9, type: 3}
     startNode: 0
     endNode: 1
     choices: 1
@@ -744,7 +727,7 @@ MonoBehaviour:
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 4cee95d0-b9bd-44f7-9d70-e990381daffe
-    characterSpr: {fileID: 0}
+    characterSpr: {fileID: -7813206595418282433, guid: 189d1f2db7ef1c747847f40a441a53ef, type: 3}
     characterName: 
     dialogueText: 
     backgroundSpr: {fileID: 0}
@@ -840,4 +823,42 @@ MonoBehaviour:
       width: 499
       height: 305
     soundEffect: {fileID: 8300000, guid: ef801e0c886b04d4f8f6fb7b5d537d01, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: b45a594f-ca06-44de-bb71-9c77c6db8773
+    characterSpr: {fileID: -7922725311733026821, guid: d9efc3595bb316241a842a460bec03d2, type: 3}
+    characterName: Dr. Vektor endnode
+    dialogueText: "Lo imaginaba. Los informes indicaban una latente tendencia a la
+      huida bajo presi\xF3n. Recoja sus cosas, Aries. La humanidad no puede depender
+      de alguien que se quiebra antes de despegar. Est\xE1 descartado."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 522
+      y: 609
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: d54fdde912dbc45478ceb20770cde9a5, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: -7813206595418282433, guid: 189d1f2db7ef1c747847f40a441a53ef, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1138
+      y: 608
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}

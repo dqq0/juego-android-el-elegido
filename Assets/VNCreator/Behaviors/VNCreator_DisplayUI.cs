@@ -117,6 +117,25 @@ namespace VNCreator
                     changedBackground = true;
                 backgroundImg.sprite = currentNode.backgroundSpr;
             }
+            else
+            {
+                Sprite prevBg = null;
+                for (int i = loadList.Count - 1; i >= 0; i--)
+                {
+                    NodeData prevNode = story.GetCurrentNode(loadList[i]);
+                    if (prevNode != null && prevNode.backgroundSpr != null)
+                    {
+                        prevBg = prevNode.backgroundSpr;
+                        break;
+                    }
+                }
+
+                if (prevBg != null && backgroundImg.sprite != prevBg)
+                {
+                    changedBackground = true;
+                    backgroundImg.sprite = prevBg;
+                }
+            }
 
             if (changedCharacter || changedBackground)
             {
