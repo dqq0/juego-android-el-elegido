@@ -96,6 +96,21 @@ namespace VNCreator
 
         IEnumerator DisplayCurrentNode()
         {
+            if (currentNode.characterName == "SISTEMA_FINAL")
+            {
+                int aptitud = PlayerStats.instance != null ? PlayerStats.instance.aptitud : 0;
+                int miedo = PlayerStats.instance != null ? PlayerStats.instance.miedo : 0;
+
+                int decision = 0;
+                // Ejemplo de lógica (puedes cambiar los números):
+                if (aptitud >= miedo + 5) decision = 0; // Final 1 (Mucha aptitud)
+                else if (miedo >= aptitud + 5) decision = 1; // Final 2 (Mucho miedo)
+                else decision = 2; // Final 3 (Equilibrado / Neutral)
+
+                NextNode(decision);
+                yield break;
+            }
+
             bool changedCharacter = false;
             bool changedBackground = false;
 
