@@ -24,5 +24,14 @@ namespace VNCreator
             source.clip = clip;
             source.Play();
         }
+
+        public void PlayOneShot(AudioClip clip)
+        {
+            source.PlayOneShot(clip);
+        }
+        public void UpdateVolume(float vol)
+        {
+            source.volume = vol;
+        }
     }
 }

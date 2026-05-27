@@ -22,6 +22,7 @@ namespace VNCreator
         public Button previousBtn;
         public Button saveBtn;
         public Button menuButton;
+        public Button restartBtn;
         [Header("Choices")]
         public Button choiceBtn1;
         public Button choiceBtn2;
@@ -32,8 +33,22 @@ namespace VNCreator
         [Scene]
         public string mainMenu;
 
+        private Coroutine visualCoroutine;
+        private Vector2 originalCharPos;
+
+        public AudioClip textBleepSound;
+        private AudioSource bleepSource;
+        private Coroutine displayCoroutine;
+
         void Start()
         {
+            bleepSource = gameObject.AddComponent<AudioSource>();
+            bleepSource.loop = true;
+            bleepSource.volume = GameOptions.sfxVolume * 0.3f; // Un poco mas bajito para no molestar
+
+            if (characterImg != null)
+                originalCharPos = characterImg.rectTransform.anchoredPosition;
+
             nextBtn.onClick.AddListener(delegate { NextNode(0); });
             if(previousBtn != null)
                 previousBtn.onClick.AddListener(Previous);
@@ -41,6 +56,8 @@ namespace VNCreator
                 saveBtn.onClick.AddListener(Save);
             if (menuButton != null)
                 menuButton.onClick.AddListener(ExitGame);
+            if (restartBtn != null)
+                restartBtn.onClick.AddListener(RestartGame);
 
             if(choiceBtn1 != null)
                 choiceBtn1.onClick.AddListener(delegate { NextNode(0); });
@@ -51,7 +68,18 @@ namespace VNCreator
 
             endScreen.SetActive(false);
 
-            StartCoroutine(DisplayCurrentNode());
+            StartDisplayCoroutine();
+        }
+
+        private void StartDisplayCoroutine()
+        {
+            if (displayCoroutine != null)
+                StopCoroutine(displayCoroutine);
+            
+            if (bleepSource != null && bleepSource.isPlaying)
+                bleepSource.Stop();
+
+            displayCoroutine = StartCoroutine(DisplayCurrentNode());
         }
 
         protected override void NextNode(int _choiceId)
@@ -63,23 +91,38 @@ namespace VNCreator
             }
 
             base.NextNode(_choiceId);
-            StartCoroutine(DisplayCurrentNode());
+            StartDisplayCoroutine();
         }
 
         IEnumerator DisplayCurrentNode()
         {
+            bool changedCharacter = false;
+            bool changedBackground = false;
+
             characterNameTxt.text = currentNode.characterName;
             if (currentNode.characterSpr != null)
             {
+                if (characterImg.sprite != currentNode.characterSpr || characterImg.color.a == 0) 
+                    changedCharacter = true;
                 characterImg.sprite = currentNode.characterSpr;
-                characterImg.color = Color.white;
             }
             else
             {
                 characterImg.color = new Color(1, 1, 1, 0);
             }
+            
             if(currentNode.backgroundSpr != null)
+            {
+                if (backgroundImg.sprite != currentNode.backgroundSpr) 
+                    changedBackground = true;
                 backgroundImg.sprite = currentNode.backgroundSpr;
+            }
+
+            if (changedCharacter || changedBackground)
+            {
+                if (visualCoroutine != null) StopCoroutine(visualCoroutine);
+                visualCoroutine = StartCoroutine(AnimateVisuals(changedCharacter, changedBackground));
+            }
 
             if (previousBtn != null)
                 previousBtn.gameObject.SetActive(loadList.Count != 1);
@@ -125,6 +168,12 @@ namespace VNCreator
             }
             else
             {
+                if (textBleepSound != null)
+                {
+                    bleepSource.clip = textBleepSound;
+                    bleepSource.Play();
+                }
+
                 char[] _chars = currentNode.dialogueText.ToCharArray();
                 string fullString = string.Empty;
                 for (int i = 0; i < _chars.Length; i++)
@@ -133,18 +182,83 @@ namespace VNCreator
                     dialogueTxt.text = fullString;
                     yield return new WaitForSeconds(0.01f/ GameOptions.readSpeed);
                 }
+
+                if (textBleepSound != null)
+                {
+                    bleepSource.Stop();
+                }
             }
         }
 
         protected override void Previous()
         {
             base.Previous();
-            StartCoroutine(DisplayCurrentNode());
+            StartDisplayCoroutine();
         }
 
         void ExitGame()
         {
             SceneManager.LoadScene(mainMenu, LoadSceneMode.Single);
+        }
+
+        void RestartGame()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        IEnumerator AnimateVisuals(bool animateChar, bool animateBg)
+        {
+            float duration = 0.5f;
+            float elapsed = 0f;
+
+            Color charColor = characterImg.color;
+            Color bgColor = backgroundImg.color;
+            Vector2 startCharPos = originalCharPos + new Vector2(0, -50f); // Empieza un poco mas abajo
+
+            if (animateChar)
+            {
+                charColor.a = 0f;
+                characterImg.color = charColor;
+                characterImg.rectTransform.anchoredPosition = startCharPos;
+            }
+            if (animateBg)
+            {
+                bgColor.a = 0f;
+                backgroundImg.color = bgColor;
+            }
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime;
+                float t = elapsed / duration;
+
+                if (animateChar)
+                {
+                    charColor.a = Mathf.Lerp(0f, 1f, t);
+                    characterImg.color = charColor;
+                    characterImg.rectTransform.anchoredPosition = Vector2.Lerp(startCharPos, originalCharPos, t);
+                }
+
+                if (animateBg)
+                {
+                    bgColor.a = Mathf.Lerp(0f, 1f, t);
+                    backgroundImg.color = bgColor;
+                }
+
+                yield return null;
+            }
+
+            if (animateChar)
+            {
+                charColor.a = 1f;
+                characterImg.color = charColor;
+                characterImg.rectTransform.anchoredPosition = originalCharPos;
+            }
+            if (animateBg)
+            {
+                bgColor.a = 1f;
+                backgroundImg.color = bgColor;
+            }
         }
     }
 }

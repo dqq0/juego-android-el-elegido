@@ -11,6 +11,7 @@ namespace VNCreator
         public Slider sfxVolumeSlider;
         public Slider readSpeedSlider;
         public Toggle instantTextToggle;
+        public Toggle muteToggle;
         public Button backButton;
 
         [Header("Menu Objects")]
@@ -40,6 +41,11 @@ namespace VNCreator
             {
                 instantTextToggle.isOn = GameOptions.isInstantText;
                 instantTextToggle.onValueChanged.AddListener(GameOptions.SetInstantText);
+            }
+            if (muteToggle != null)
+            {
+                muteToggle.isOn = GameOptions.isMuted;
+                muteToggle.onValueChanged.AddListener(GameOptions.SetMute);
             }
 
             backButton.onClick.AddListener(Back);

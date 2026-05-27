@@ -13,101 +13,101 @@ MonoBehaviour:
   m_Name: Historia 1
   m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
   links:
-  - guid: 65512fb1-ea6f-45bc-8de2-05250ddc1134
-    targetGuid: 53d87f46-5c61-4351-b37c-5972fd051d72
-    portId: 0
-  - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
-    targetGuid: 488f2341-d591-4332-a6a6-50dd37f262bb
-    portId: 1
-  - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
-    targetGuid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
-    portId: 2
-  - guid: 488f2341-d591-4332-a6a6-50dd37f262bb
-    targetGuid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
-    portId: 3
-  - guid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
-    targetGuid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
-    portId: 4
-  - guid: f17faaf6-bbd6-46e9-bb6b-f3f5203c625e
-    targetGuid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
-    portId: 5
   - guid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
     targetGuid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
-    portId: 6
-  - guid: 08663973-5524-4799-8642-e9876360446b
-    targetGuid: 26f015ac-64a9-4a68-8414-1953ce8b9f82
-    portId: 7
-  - guid: 26f015ac-64a9-4a68-8414-1953ce8b9f82
-    targetGuid: 112cb05b-9be6-43cd-a81e-5b5ed3694a74
-    portId: 8
-  - guid: 112cb05b-9be6-43cd-a81e-5b5ed3694a74
-    targetGuid: 73723c64-140d-4324-bbca-92b860632100
-    portId: 9
-  - guid: 73723c64-140d-4324-bbca-92b860632100
-    targetGuid: e9bb34e2-d70d-43ed-bb26-e1a023344797
-    portId: 10
-  - guid: 73723c64-140d-4324-bbca-92b860632100
-    targetGuid: 1b3e5c0d-de78-4f60-bb34-dfb4a1f90c5e
-    portId: 11
-  - guid: 73723c64-140d-4324-bbca-92b860632100
-    targetGuid: d855f81f-3e75-4eda-8ca2-011b2179def4
-    portId: 12
-  - guid: 7c8ff994-0085-4be1-bb5a-b88ce85b5477
-    targetGuid: 3d3a0027-46ca-4ba6-aca1-416ee3a2e28b
-    portId: 13
-  - guid: 7c8ff994-0085-4be1-bb5a-b88ce85b5477
-    targetGuid: 8ecd1003-f8cd-4d1b-a0db-7b1b005d5523
-    portId: 14
-  - guid: 8ecd1003-f8cd-4d1b-a0db-7b1b005d5523
-    targetGuid: 08663973-5524-4799-8642-e9876360446b
-    portId: 15
-  - guid: 3d3a0027-46ca-4ba6-aca1-416ee3a2e28b
-    targetGuid: 08663973-5524-4799-8642-e9876360446b
-    portId: 16
+    portId: 0
   - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
     targetGuid: 97741ef2-b530-456d-954a-e151738d37f4
-    portId: 17
+    portId: 1
   - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
     targetGuid: db4dcf67-5a46-4b89-956c-9f664cab093a
-    portId: 18
+    portId: 2
   - guid: 97741ef2-b530-456d-954a-e151738d37f4
     targetGuid: 8ecf9b34-e220-4ffc-b437-b836748c6611
-    portId: 19
+    portId: 3
   - guid: db4dcf67-5a46-4b89-956c-9f664cab093a
     targetGuid: 8ecf9b34-e220-4ffc-b437-b836748c6611
-    portId: 20
+    portId: 4
   - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
     targetGuid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
-    portId: 21
+    portId: 5
   - guid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
     targetGuid: df81189d-015e-4118-b3e0-3667c778b37b
-    portId: 22
+    portId: 6
   - guid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
     targetGuid: 22ade9b6-471d-414d-b5eb-47d0e6c820e1
-    portId: 23
+    portId: 7
   - guid: df81189d-015e-4118-b3e0-3667c778b37b
     targetGuid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
-    portId: 24
+    portId: 8
   - guid: 22ade9b6-471d-414d-b5eb-47d0e6c820e1
     targetGuid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
-    portId: 25
+    portId: 9
   - guid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
     targetGuid: 0d12801e-bdb4-40f0-8980-2712a05de958
-    portId: 26
+    portId: 10
   - guid: 0d12801e-bdb4-40f0-8980-2712a05de958
     targetGuid: 1bf34980-01e7-4cef-a082-6d9cd47936c4
-    portId: 27
+    portId: 11
   - guid: 0d12801e-bdb4-40f0-8980-2712a05de958
     targetGuid: 78ebd5b6-02a9-4017-9874-9bfdfa62172c
-    portId: 28
+    portId: 12
   - guid: 1bf34980-01e7-4cef-a082-6d9cd47936c4
     targetGuid: f847fc0b-c622-4d01-8b62-571a4511c2ca
-    portId: 29
+    portId: 13
   - guid: f847fc0b-c622-4d01-8b62-571a4511c2ca
     targetGuid: 0d76b0b5-a0f3-4caa-8486-7cd3374802b6
-    portId: 30
+    portId: 14
   - guid: 78ebd5b6-02a9-4017-9874-9bfdfa62172c
     targetGuid: f847fc0b-c622-4d01-8b62-571a4511c2ca
+    portId: 15
+  - guid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
+    targetGuid: e24fbb16-884e-4f92-995a-92a7625cdfb1
+    portId: 16
+  - guid: 9331ea03-9db2-49b1-9168-16519e370463
+    targetGuid: e24fbb16-884e-4f92-995a-92a7625cdfb1
+    portId: 17
+  - guid: 9d2ae201-7cd3-443b-b1a8-7c746c8bc328
+    targetGuid: e2978e94-ef4c-46d9-818b-729767b0a56a
+    portId: 18
+  - guid: c043e389-7e3c-418d-b4ff-871e5ab98d85
+    targetGuid: 71331ec8-a96c-4319-89f9-771b5f5c6667
+    portId: 19
+  - guid: 71331ec8-a96c-4319-89f9-771b5f5c6667
+    targetGuid: 65512fb1-ea6f-45bc-8de2-05250ddc1134
+    portId: 20
+  - guid: e24fbb16-884e-4f92-995a-92a7625cdfb1
+    targetGuid: c043e389-7e3c-418d-b4ff-871e5ab98d85
+    portId: 21
+  - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
+    targetGuid: 2bef74ff-6b80-4554-b521-ffff886ff325
+    portId: 22
+  - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
+    targetGuid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
+    portId: 23
+  - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
+    targetGuid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
+    portId: 24
+  - guid: c77b1297-65ac-481e-84ae-2f7eee10ece0
+    targetGuid: f17faaf6-bbd6-46e9-bb6b-f3f5203c625e
+    portId: 25
+  - guid: f17faaf6-bbd6-46e9-bb6b-f3f5203c625e
+    targetGuid: ba56f399-f24b-4703-b29e-081d168b34f1
+    portId: 26
+  - guid: ba56f399-f24b-4703-b29e-081d168b34f1
+    targetGuid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
+    portId: 27
+  - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
+    targetGuid: 488f2341-d591-4332-a6a6-50dd37f262bb
+    portId: 28
+  - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
+    targetGuid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
+    portId: 29
+  - guid: 488f2341-d591-4332-a6a6-50dd37f262bb
+    targetGuid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
+    portId: 30
+  - guid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
+    targetGuid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
     portId: 31
   - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
     targetGuid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
@@ -115,580 +115,15 @@ MonoBehaviour:
   - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
     targetGuid: 9331ea03-9db2-49b1-9168-16519e370463
     portId: 33
-  - guid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
-    targetGuid: e24fbb16-884e-4f92-995a-92a7625cdfb1
+  - guid: 65512fb1-ea6f-45bc-8de2-05250ddc1134
+    targetGuid: 53d87f46-5c61-4351-b37c-5972fd051d72
     portId: 34
-  - guid: 9331ea03-9db2-49b1-9168-16519e370463
-    targetGuid: e24fbb16-884e-4f92-995a-92a7625cdfb1
-    portId: 35
-  - guid: 9d2ae201-7cd3-443b-b1a8-7c746c8bc328
-    targetGuid: e2978e94-ef4c-46d9-818b-729767b0a56a
-    portId: 36
-  - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
-    targetGuid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
-    portId: 37
-  - guid: e2978e94-ef4c-46d9-818b-729767b0a56a
-    targetGuid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
-    portId: 38
-  - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
-    targetGuid: 2bef74ff-6b80-4554-b521-ffff886ff325
-    portId: 39
-  - guid: c043e389-7e3c-418d-b4ff-871e5ab98d85
-    targetGuid: 71331ec8-a96c-4319-89f9-771b5f5c6667
-    portId: 40
-  - guid: 71331ec8-a96c-4319-89f9-771b5f5c6667
-    targetGuid: 65512fb1-ea6f-45bc-8de2-05250ddc1134
-    portId: 41
-  - guid: e24fbb16-884e-4f92-995a-92a7625cdfb1
-    targetGuid: c043e389-7e3c-418d-b4ff-871e5ab98d85
-    portId: 42
   - guid: 53d87f46-5c61-4351-b37c-5972fd051d72
     targetGuid: c77b1297-65ac-481e-84ae-2f7eee10ece0
-    portId: 43
-  - guid: c77b1297-65ac-481e-84ae-2f7eee10ece0
-    targetGuid: f17faaf6-bbd6-46e9-bb6b-f3f5203c625e
-    portId: 44
+    portId: 35
   nodes:
-  - guid: 65512fb1-ea6f-45bc-8de2-05250ddc1134
-    characterSpr: {fileID: 0}
-    characterName: Sistema PA
-    dialogueText: "\"Atenci\xF3n. Candidato Aries. Presentarse en el simulador. Candidata
-      Cassia ya se encuentra en posici\xF3n.\""
-    backgroundSpr: {fileID: 2797516148267420848, guid: 58a43d80bdef9cd4e95952495b2f5509, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5156
-      y: 72
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
-    characterSpr: {fileID: 0}
-    characterName: ARIES
-    dialogueText: "(Es una trampa de saturaci\xF3n cognitiva. Debo estabilizar la
-      nave y pensar al mismo tiempo). Dr. Vektor: \"Pregunta uno. Falla cr\xEDtica.
-      Solo queda una c\xE1psula de escape. \xBFQui\xE9n la toma, usted o la candidata
-      Cassia?\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - "\"Cassia. El protocolo dicta priorizar al candidato con el mayor porcentaje
-      de aptitud general. La l\xF3gica dicta su supervivencia.\""
-    - "\"Yo. Soy el piloto principal. Sin m\xED al mando, las probabilidades de que
-      un novato sobreviva a la reentrada son nulas.\""
-    nodePosition:
-      serializedVersion: 2
-      x: 7268
-      y: 75
-      width: 737
-      height: 367
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 488f2341-d591-4332-a6a6-50dd37f262bb
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor (Voz por altavoz)
-    dialogueText: "Un sacrificio calculado estrictamente seg\xFAn el manual. La candidata
-      Cassia respondi\xF3 exactamente lo mismo sobre usted, por cierto. Curioso.
-      Contin\xFAe evadiendo."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 8037
-      y: -168
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor (Voz por altavoz)
-    dialogueText: "El ego\xEDsmo disfrazado de pragmatismo operativo. Cassia, en
-      su lugar, ofreci\xF3 sacrificarse. Su exceso de ego acaba de costarle un 20%
-      de integridad en sus escudos."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 8029
-      y: 249
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: f17faaf6-bbd6-46e9-bb6b-f3f5203c625e
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor (Voz por altavoz)
-    dialogueText: "Conc\xE9ntrese en esquivar, candidato. Mientras pilota bajo fuego,
-      responder\xE1 mis dilemas \xE9ticos sin dudar. Si su ritmo card\xEDaco sube
-      o tarda m\xE1s de tres segundos, el simulador desactivar\xE1 sus escudos."
-    backgroundSpr: {fileID: -1263869488602597101, guid: 55abfbc923082e94eb8184380ae79622, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6756
-      y: 71
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
-    characterSpr: {fileID: 0}
-    characterName: Sistema PA
-    dialogueText: "\"Anomal\xEDa detectada en sector de escombros. Posible se\xF1al
-      de vida t\xE9rmica en m\xF3dulo destruido.\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 8577
-      y: 83
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 08663973-5524-4799-8642-e9876360446b
-    characterSpr: {fileID: 0}
-    characterName: Sistema PA
-    dialogueText: "\"Simulaci\xF3n finalizada. Desbloqueando compuertas principales.\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3615
-      y: 1376
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 26f015ac-64a9-4a68-8414-1953ce8b9f82
-    characterSpr: {fileID: 0}
-    characterName: ARIES
-    dialogueText: "(La escotilla del simulador se abre con un siseo hidr\xE1ulico.
-      El Dr. Vektor est\xE1 de pie en la pasarela, mir\xE1ndome. No tiene su tableta.
-      No est\xE1 anotando nada. Su expresi\xF3n es de absoluta seriedad)."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4172
-      y: 1376
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 112cb05b-9be6-43cd-a81e-5b5ed3694a74
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "La \xFAltima pregunta no era una simulaci\xF3n, Aries. La misi\xF3n
-      para la que compite no tiene protocolo de retorno. Es un viaje de ida para
-      alterar la \xF3rbita del asteroide. Quien suba a esa nave, morir\xE1 en el
-      espacio profundo. Cassia ya acept\xF3 los t\xE9rminos. Es su turno."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4702
-      y: 1375
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 73723c64-140d-4324-bbca-92b860632100
-    characterSpr: {fileID: 0}
-    characterName: ARIES
-    dialogueText: "(Todo el entrenamiento, la presi\xF3n, el recuerdo de mi escuadr\xF3n...
-      todo se reduce a este instante. Mi mente est\xE1 al l\xEDmite)."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 3
-    choiceOptions:
-    - '"Lo entiendo, doctor. Mi vida es un recurso aceptable si garantiza la supervivencia
-      del resto. Estoy listo para el lanzamiento." (Lleva al Final Bueno)'
-    - "\"\xA1Est\xE1n locos! \xA1Esto no es una misi\xF3n, es una ejecuci\xF3n encubierta!
-      No voy a ser el cordero del sacrificio de la Agencia.\" (Lleva al Final Malo)"
-    - "\"Un momento... Si la nave no vuelve, no necesitan un piloto. Necesitan un
-      sistema de gu\xEDa biol\xF3gico. Nos van a conectar al n\xFAcleo de la nave,
-      \xBFverdad?\" (Lleva al Final Secreto)"
-    nodePosition:
-      serializedVersion: 2
-      x: 5244
-      y: 1374
-      width: 991
-      height: 410
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: d855f81f-3e75-4eda-8ca2-011b2179def4
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "(Vektor palidece por una fracci\xF3n de segundo). Su capacidad
-      anal\xEDtica bajo estr\xE9s extremo acaba de romper la confidencialidad de
-      nivel uno. Ha visto el verdadero n\xFAcleo del proyecto. Guardias, seden al
-      candidato Aries y prep\xE1renlo para la integraci\xF3n forzada. (FINAL SECRETO:
-      LA VERDAD OCULTA)"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6337
-      y: 1761
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: e9bb34e2-d70d-43ed-bb26-e1a023344797
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "Una respuesta perfecta. Su aptitud l\xF3gica ha superado su instinto
-      de supervivencia. Bienvenido a la misi\xF3n, Aries. Usted es El Elegido. Prep\xE1rese
-      para hacer historia. (FINAL BUENO: ERES ELEGIDO)"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6336
-      y: 1105
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 1b3e5c0d-de78-4f60-bb34-dfb4a1f90c5e
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "Su instinto de autoconservaci\xF3n acaba de quebrar su l\xF3gica.
-      El estr\xE9s lo ha vencido, tal como ocurri\xF3 hace tres a\xF1os. Retire sus
-      pertenencias, candidato. La humanidad ser\xE1 salvada por Cassia. (FINAL MALO:
-      DESCARTADO POR INESTABILIDAD)"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6340
-      y: 1425
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 7c8ff994-0085-4be1-bb5a-b88ce85b5477
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor (Voz por altavoz)
-    dialogueText: "\"\xDAltima pregunta. Si minutos antes del lanzamiento descubre
-      que la Agencia le ocult\xF3 una tasa de mortalidad del 80% en esta misi\xF3n,
-      \xBFaborta el despegue?\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - "\"Negativo. Si la directiva ocult\xF3 los datos, es para asegurar el \xE9xito
-      operativo. Mi deber es cumplir la misi\xF3n, no cuestionar a mis superiores.\""
-    - "\"Afirmativo. Un ingeniero no puede operar con variables ocultas. Ese nivel
-      de enga\xF1o compromete toda mi capacidad de tomar decisiones t\xE1cticas.\""
-    nodePosition:
-      serializedVersion: 2
-      x: 2165
-      y: 1302
-      width: 852
-      height: 367
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 8ecd1003-f8cd-4d1b-a0db-7b1b005d5523
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor (Voz por altavoz)
-    dialogueText: "La desconfianza y la insubordinaci\xF3n asoman la cabeza, Aries.
-      Un astronauta que no conf\xEDa en su mando central es un peligro a millones
-      de kil\xF3metros de la Tierra. Simulaci\xF3n de estr\xE9s finalizada."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3071
-      y: 1597
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 3d3a0027-46ca-4ba6-aca1-416ee3a2e28b
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor (Voz por altavoz)
-    dialogueText: "La obediencia ciega por encima de la supervivencia. Exactamente
-      lo que buscamos en un activo en el espacio profundo. Su perfil es fascinante,
-      Aries. Simulaci\xF3n de estr\xE9s finalizada."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3053
-      y: 1124
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "\"Pregunta dos. Esa se\xF1al t\xE9rmica proviene de chatarra.
-      Escanear a fondo para confirmar si hay un sobreviviente consumir\xE1 el 15%
-      de su propio soporte vital. Puede ser un error del sensor o una vida humana.
-      \xBFQu\xE9 hace?\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - "\"Ignorar la se\xF1al. Es un riesgo inaceptable basar decisiones en un margen
-      de error estad\xEDstico. Conservemos el soporte vital.\""
-    - "\"Iniciar esc\xE1ner. No podemos dejar una variable al azar si existe la m\xEDnima
-      posibilidad de rescate, aunque cueste recursos.\""
-    nodePosition:
-      serializedVersion: 2
-      x: 9106
-      y: 83
-      width: 735
-      height: 367
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 97741ef2-b530-456d-954a-e151738d37f4
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "Pragmatismo absoluto ante la incertidumbre. Conservar sus recursos
-      fue una elecci\xF3n l\xF3gica, aunque sumamente solitaria."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 9982
-      y: -344
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: db4dcf67-5a46-4b89-956c-9f664cab093a
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "La esperanza irracional consumi\xF3 sus reservas. Era un fallo
-      del sensor t\xE9rmico. Acaba de perder ox\xEDgeno valioso persiguiendo un fantasma,
-      Aries."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 9979
-      y: 429
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
-    characterSpr: {fileID: 0}
-    characterName: Sistema PA
-    dialogueText: "\"Alerta. Sistemas de comunicaci\xF3n de largo alcance fuera de
-      l\xEDnea. Aislamiento total.\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 10637
-      y: 114
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "\"Pregunta tres. Est\xE1 completamente aislado en el vac\xEDo.
-      \xBFMantiene silencio de radio para conservar su energ\xEDa cr\xEDtica, o emite
-      una baliza de auxilio a ciegas esperando que alguien la escuche?\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - "\"Silencio de radio. En el espacio profundo nadie escuchar\xE1 una baliza
-      de baja potencia. Yo resolver\xE9 la falla t\xE9cnica desde mi panel.\""
-    - "\"Emitir baliza a ciegas. Es imperativo agotar todas las v\xEDas de contacto
-      externo para aumentar las probabilidades de supervivencia.\""
-    nodePosition:
-      serializedVersion: 2
-      x: 11277
-      y: 82
-      width: 770
-      height: 367
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: df81189d-015e-4118-b3e0-3667c778b37b
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: Autosuficiencia extrema. Acepta el aislamiento absoluto sin dudarlo.
-      Una mente blindada contra la soledad espacial.
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 12160
-      y: -97
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 22ade9b6-471d-414d-b5eb-47d0e6c820e1
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "El instinto primario de buscar a la manada. Desperdici\xF3 su
-      poca energ\xEDa gritando en un desierto donde nadie iba a responderle."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 12157
-      y: 289
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
-    characterSpr: {fileID: 0}
-    characterName: Sistema PA
-    dialogueText: "\"Alerta de sistema. Inteligencia Artificial de navegaci\xF3n
-      corrompida por radiaci\xF3n externa. Brecha de seguridad en el n\xFAcleo de
-      datos.\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 12790
-      y: 155
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 0d12801e-bdb4-40f0-8980-2712a05de958
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "\"Pregunta cuatro, candidato. La IA de su nave est\xE1 colapsando
-      y sugiere purgar el 50% de los datos recolectados en la misi\xF3n para reiniciar
-      sus protocolos. \xBFConf\xEDa en una m\xE1quina da\xF1ada para no estrellarse,
-      o la apaga y pilota a ciegas con instrumentos an\xE1logos?"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - "\"Apagar la IA. Un sistema comprometido l\xF3gicamente es un riesgo t\xE1ctico
-      inaceptable. Volar\xE9 en manual.\""
-    - "\"Confiar en la IA y purgar los datos. Es la \xFAnica forma de no perder la
-      asistencia de navegaci\xF3n en este caos de escombros.\""
-    nodePosition:
-      serializedVersion: 2
-      x: 13350
-      y: 153
-      width: 728
-      height: 367
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 1bf34980-01e7-4cef-a082-6d9cd47936c4
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "Acaba de borrar d\xE9cadas de investigaci\xF3n de la Agencia para
-      salvar un algoritmo defectuoso. Su priorizaci\xF3n bajo p\xE1nico es cuestionable."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 14169
-      y: 412
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: f847fc0b-c622-4d01-8b62-571a4511c2ca
-    characterSpr: {fileID: 0}
+    characterSpr: {fileID: 2126653040373655699, guid: ce56c2bd1d6875b4d9e79bdfcb742610, type: 3}
     characterName: Sistema PA
     dialogueText: "\"Fallo cr\xEDtico irrecuperable. Sobrecarga de par\xE1metros.
       Pantallas en negro... Inserci\xF3n de protocolo confidencial.\""
@@ -702,25 +137,6 @@ MonoBehaviour:
       serializedVersion: 2
       x: 14741
       y: 150
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 78ebd5b6-02a9-4017-9874-9bfdfa62172c
-    characterSpr: {fileID: 0}
-    characterName: Dr. Vektor
-    dialogueText: "Desconect\xF3 su mayor ventaja de procesamiento por no poder controlar
-      sus variables. Una muestra brutal de autosuficiencia y frialdad, Aries."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 14190
-      y: -130
       width: 499
       height: 305
     soundEffect: {fileID: 0}
@@ -788,73 +204,6 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
-    characterSpr: {fileID: 0}
-    characterName: ARIES
-    dialogueText: "(Va directo a la yugular. Cassia resolvi\xF3 la misma simulaci\xF3n
-      sin alterar su pulso. Si muestro debilidad ahora, \xE9l lo usar\xE1 en mi contra).(Va
-      directo a la yugular. Cassia resolvi\xF3 la misma simulaci\xF3n sin alterar
-      su pulso. Si muestro debilidad ahora, \xE9l lo usar\xE1 en mi contra)"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - "Es fisiolog\xEDa b\xE1sica ante una emergencia, doctor. Lo importante es que
-      mi mente mantuvo la calma y estabilic\xE9 la nave."
-    - "\"No es terror... solo fue una anomal\xEDa inesperada en los propulsores.
-      No volver\xE1 a afectar mi rendimiento."
-    nodePosition:
-      serializedVersion: 2
-      x: 1373
-      y: 20
-      width: 701
-      height: 367
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
-    characterSpr: {fileID: -1579061744904438577, guid: 41b2db1fffc426f4f88ec1b2c41c5da1, type: 3}
-    characterName: Dr. Vektor
-    dialogueText: "(Vektor saca un expediente f\xEDsico de su malet\xEDn y lo deja
-      caer sobre la mesa met\xE1lica). \"\xBFFisiolog\xEDa b\xE1sica? Qu\xE9 respuesta
-      tan cl\xEDnica, Aries. Me pregunto si us\xF3 esa misma l\xF3gica impecable
-      durante el incidente de la estaci\xF3n Titan hace tres a\xF1os... cuando perdi\xF3
-      a todo su escuadr\xF3n.\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2351
-      y: -193
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 9331ea03-9db2-49b1-9168-16519e370463
-    characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
-    characterName: Dr. Vektor
-    dialogueText: "(Vektor anota algo en su tablet sin mirarte). \"\xBFAnomal\xEDa?
-      Curioso. Es la misma palabra exacta que us\xF3 en su reporte oficial hace tres
-      a\xF1os. Ya sabe, para justificar el 'accidente' donde el resto de su equipo
-      no regres\xF3.\""
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2333
-      y: 185
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 9d2ae201-7cd3-443b-b1a8-7c746c8bc328
     characterSpr: {fileID: -7922725311733026821, guid: d9efc3595bb316241a842a460bec03d2, type: 3}
     characterName: Dr. Vektor startnode
@@ -872,6 +221,47 @@ MonoBehaviour:
       serializedVersion: 2
       x: -587
       y: 123
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 3cf56ed20e4073943b66a9926694f3a2, type: 3}
+  - guid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
+    characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
+    characterName: Dr. Vektor endnode
+    dialogueText: "Lo imaginaba. Los informes indicaban una latente tendencia a la
+      huida bajo presi\xF3n. Recoja sus cosas, Aries. La humanidad no puede depender
+      de alguien que se quiebra antes de despegar. Est\xE1 descartado."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 514
+      y: 643
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
+    characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
+    characterName: Dr. Vektor
+    dialogueText: "Excelente. Ah\xF3rrese las posturas ensayadas. Revis\xE9 su simulaci\xF3n
+      orbital de ayer. Sus controles manuales fueron precisos, pero sus biosensores
+      registraron un pico de taquicardia severo. \xBFPor qu\xE9 le aterra tanto perder
+      el control, candidato?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 556
+      y: 142
       width: 499
       height: 305
     soundEffect: {fileID: 0}
@@ -897,53 +287,37 @@ MonoBehaviour:
       height: 367
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: d8c74f37-a0a7-421e-9efd-c27f9de5b72f
-    characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
-    characterName: Dr. Vektor
-    dialogueText: "Excelente. Ah\xF3rrese las posturas ensayadas. Revis\xE9 su simulaci\xF3n
-      orbital de ayer. Sus controles manuales fueron precisos, pero sus biosensores
-      registraron un pico de taquicardia severo. \xBFPor qu\xE9 le aterra tanto perder
-      el control, candidato?"
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 556
-      y: 142
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 5fa94c76-fc0e-4f4e-ad2e-b702cd2cc999
-    characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
-    characterName: Dr. Vektor endnode
-    dialogueText: "Lo imaginaba. Los informes indicaban una latente tendencia a la
-      huida bajo presi\xF3n. Recoja sus cosas, Aries. La humanidad no puede depender
-      de alguien que se quiebra antes de despegar. Est\xE1 descartado."
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 514
-      y: 643
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: c043e389-7e3c-418d-b4ff-871e5ab98d85
-    characterSpr: {fileID: 0}
+  - guid: 2bef74ff-6b80-4554-b521-ffff886ff325
+    characterSpr: {fileID: -1274883590209061707, guid: bbae75e2fac4c5447be7ad4f820a50de, type: 3}
     characterName: ARIES
-    dialogueText: "(...La explosi\xF3n en la estaci\xF3n Titan. El fuego consumiendo
-      el m\xF3dulo de mando y el silencio absoluto tras perder a todo mi escuadr\xF3n)."
-    backgroundSpr: {fileID: -1247068058271733094, guid: 3858f167a433a3b449c47c0d62a75a72, type: 3}
+    dialogueText: "(Va directo a la yugular. Cassia resolvi\xF3 la misma simulaci\xF3n
+      sin alterar su pulso. Si muestro debilidad ahora, \xE9l lo usar\xE1 en mi contra)."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "Es fisiolog\xEDa b\xE1sica ante una emergencia, doctor. Lo importante es que
+      mi mente mantuvo la calma y estabilic\xE9 la nave."
+    - "\"No es terror... solo fue una anomal\xEDa inesperada en los propulsores.
+      No volver\xE1 a afectar mi rendimiento."
+    nodePosition:
+      serializedVersion: 2
+      x: 1137
+      y: 98
+      width: 701
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 3cf56ed20e4073943b66a9926694f3a2, type: 3}
+  - guid: 8d6eadf1-3ec4-48c2-ac88-e67698f07eba
+    characterSpr: {fileID: -1579061744904438577, guid: 41b2db1fffc426f4f88ec1b2c41c5da1, type: 3}
+    characterName: Dr. Vektor
+    dialogueText: "(Vektor saca un expediente f\xEDsico de su malet\xEDn y lo deja
+      caer sobre la mesa met\xE1lica). \"\xBFFisiolog\xEDa b\xE1sica? Qu\xE9 respuesta
+      tan cl\xEDnica, Aries. Me pregunto si us\xF3 esa misma l\xF3gica impecable
+      durante el incidente de la estaci\xF3n Titan hace tres a\xF1os... cuando perdi\xF3
+      a todo su escuadr\xF3n.\""
+    backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
     choices: 1
@@ -951,19 +325,20 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3740
-      y: 64
+      x: 1856
+      y: -329
       width: 499
       height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 71331ec8-a96c-4319-89f9-771b5f5c6667
-    characterSpr: {fileID: 1760933834820945690, guid: 3018f336ab1db734896b50f599ac7455, type: 3}
+  - guid: 9331ea03-9db2-49b1-9168-16519e370463
+    characterSpr: {fileID: -4141193946682107541, guid: 73ca781642f244f4f90bc7421b65ad87, type: 3}
     characterName: Dr. Vektor
-    dialogueText: "\xBFSigue con nosotros, candidato? Como le indicaba, la entrevista
-      psicol\xF3gica ha terminado. Pase al Simulador Orbital para su evaluaci\xF3n
-      pr\xE1ctica."
-    backgroundSpr: {fileID: 2797516148267420848, guid: 58a43d80bdef9cd4e95952495b2f5509, type: 3}
+    dialogueText: "(Vektor anota algo en su tablet sin mirarte). \"\xBFAnomal\xEDa?
+      Curioso. Es la misma palabra exacta que us\xF3 en su reporte oficial hace tres
+      a\xF1os. Ya sabe, para justificar el 'accidente' donde el resto de su equipo
+      no regres\xF3.\""
+    backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 0
     choices: 1
@@ -971,8 +346,8 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4368
-      y: 62
+      x: 1861
+      y: 518
       width: 499
       height: 305
     soundEffect: {fileID: 0}
@@ -991,12 +366,70 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3112
-      y: 64
+      x: 2385
+      y: 102
       width: 499
       height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+  - guid: c043e389-7e3c-418d-b4ff-871e5ab98d85
+    characterSpr: {fileID: 0}
+    characterName: ARIES
+    dialogueText: "(...La explosi\xF3n en la estaci\xF3n Titan. El fuego consumiendo
+      el m\xF3dulo de mando y el silencio absoluto tras perder a todo mi escuadr\xF3n)."
+    backgroundSpr: {fileID: -1247068058271733094, guid: 3858f167a433a3b449c47c0d62a75a72, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2941
+      y: 101
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 71331ec8-a96c-4319-89f9-771b5f5c6667
+    characterSpr: {fileID: 1760933834820945690, guid: 3018f336ab1db734896b50f599ac7455, type: 3}
+    characterName: Dr. Vektor
+    dialogueText: "\xBFSigue con nosotros, candidato? Como le indicaba, la entrevista
+      psicol\xF3gica ha terminado. Pase al Simulador Orbital para su evaluaci\xF3n
+      pr\xE1ctica."
+    backgroundSpr: {fileID: 2797516148267420848, guid: 58a43d80bdef9cd4e95952495b2f5509, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3477
+      y: 100
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 65512fb1-ea6f-45bc-8de2-05250ddc1134
+    characterSpr: {fileID: 0}
+    characterName: Sistema PA
+    dialogueText: "\"Atenci\xF3n. Candidato Aries. Presentarse en el simulador. Candidata
+      Cassia ya se encuentra en posici\xF3n.\""
+    backgroundSpr: {fileID: 2797516148267420848, guid: 58a43d80bdef9cd4e95952495b2f5509, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4018
+      y: 100
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 98e5c7ba15d3f474599c9894d49b4c82, type: 3}
   - guid: 53d87f46-5c61-4351-b37c-5972fd051d72
     characterSpr: {fileID: 0}
     characterName: Sistema PA
@@ -1010,8 +443,8 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 5683
-      y: 75
+      x: 4581
+      y: 101
       width: 499
       height: 305
     soundEffect: {fileID: 0}
@@ -1030,8 +463,353 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
+      x: 5120
+      y: 102
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f17faaf6-bbd6-46e9-bb6b-f3f5203c625e
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor (Voz por altavoz)
+    dialogueText: "Conc\xE9ntrese en esquivar, candidato. Mientras pilota bajo fuego,
+      responder\xE1 mis dilemas \xE9ticos sin dudar. Si su ritmo card\xEDaco sube
+      o tarda m\xE1s de tres segundos, el simulador desactivar\xE1 sus escudos."
+    backgroundSpr: {fileID: -1263869488602597101, guid: 55abfbc923082e94eb8184380ae79622, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5665
+      y: 101
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ba56f399-f24b-4703-b29e-081d168b34f1
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor (Voz por altavoz)
+    dialogueText: " Dr. Vektor: \"Pregunta uno. Falla cr\xEDtica. Solo queda una
+      c\xE1psula de escape. \xBFQui\xE9n la toma, usted o la candidata Cassia?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
       x: 6220
-      y: 75
+      y: 100
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d5cccb2f-a3fc-4546-8f80-725e64ea6098
+    characterSpr: {fileID: 0}
+    characterName: ARIES
+    dialogueText: "(Es una trampa de saturaci\xF3n cognitiva. Debo estabilizar la
+      nave y pensar al mismo tiempo)."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\"Cassia. El protocolo dicta priorizar al candidato con el mayor porcentaje
+      de aptitud general. La l\xF3gica dicta su supervivencia.\""
+    - "\"Yo. Soy el piloto principal. Sin m\xED al mando, las probabilidades de que
+      un novato sobreviva a la reentrada son nulas.\""
+    nodePosition:
+      serializedVersion: 2
+      x: 6792
+      y: 93
+      width: 737
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 488f2341-d591-4332-a6a6-50dd37f262bb
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor (Voz por altavoz)
+    dialogueText: "Un sacrificio calculado estrictamente seg\xFAn el manual. La candidata
+      Cassia respondi\xF3 exactamente lo mismo sobre usted, por cierto. Curioso.
+      Contin\xFAe evadiendo."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7556
+      y: -337
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 011d7ebc-533d-4fe4-8cc6-891c20eb2f1e
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor (Voz por altavoz)
+    dialogueText: "El ego\xEDsmo disfrazado de pragmatismo operativo. Cassia, en
+      su lugar, ofreci\xF3 sacrificarse. Su exceso de ego acaba de costarle un 20%
+      de integridad en sus escudos."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7569
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2769e67e-4767-4c5c-8ac6-3e3255d426f5
+    characterSpr: {fileID: 2126653040373655699, guid: ce56c2bd1d6875b4d9e79bdfcb742610, type: 3}
+    characterName: Sistema PA
+    dialogueText: "\"Anomal\xEDa detectada en sector de escombros. Posible se\xF1al
+      de vida t\xE9rmica en m\xF3dulo destruido.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8104
+      y: 86
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fa9796a7-4297-41f0-bc4a-17c3b93d3b17
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "\"Pregunta dos. Esa se\xF1al t\xE9rmica proviene de chatarra.
+      Escanear a fondo para confirmar si hay un sobreviviente consumir\xE1 el 15%
+      de su propio soporte vital. Puede ser un error del sensor o una vida humana.
+      \xBFQu\xE9 hace?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\"Ignorar la se\xF1al. Es un riesgo inaceptable basar decisiones en un margen
+      de error estad\xEDstico. Conservemos el soporte vital.\""
+    - "\"Iniciar esc\xE1ner. No podemos dejar una variable al azar si existe la m\xEDnima
+      posibilidad de rescate, aunque cueste recursos.\""
+    nodePosition:
+      serializedVersion: 2
+      x: 8660
+      y: 85
+      width: 735
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 97741ef2-b530-456d-954a-e151738d37f4
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "Pragmatismo absoluto ante la incertidumbre. Conservar sus recursos
+      fue una elecci\xF3n l\xF3gica, aunque sumamente solitaria."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9414
+      y: -323
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: db4dcf67-5a46-4b89-956c-9f664cab093a
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "La esperanza irracional consumi\xF3 sus reservas. Era un fallo
+      del sensor t\xE9rmico. Acaba de perder ox\xEDgeno valioso persiguiendo un fantasma,
+      Aries."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9418
+      y: 443
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ecf9b34-e220-4ffc-b437-b836748c6611
+    characterSpr: {fileID: 0}
+    characterName: Sistema PA
+    dialogueText: "\"Alerta. Sistemas de comunicaci\xF3n de largo alcance fuera de
+      l\xEDnea. Aislamiento total.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9940
+      y: 88
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fb43cfd7-b1d6-4872-a338-f1b471a1bb19
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "\"Pregunta tres. Est\xE1 completamente aislado en el vac\xEDo.
+      \xBFMantiene silencio de radio para conservar su energ\xEDa cr\xEDtica, o emite
+      una baliza de auxilio a ciegas esperando que alguien la escuche?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\"Silencio de radio. En el espacio profundo nadie escuchar\xE1 una baliza
+      de baja potencia. Yo resolver\xE9 la falla t\xE9cnica desde mi panel.\""
+    - "\"Emitir baliza a ciegas. Es imperativo agotar todas las v\xEDas de contacto
+      externo para aumentar las probabilidades de supervivencia.\""
+    nodePosition:
+      serializedVersion: 2
+      x: 10507
+      y: 87
+      width: 770
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: df81189d-015e-4118-b3e0-3667c778b37b
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: Autosuficiencia extrema. Acepta el aislamiento absoluto sin dudarlo.
+      Una mente blindada contra la soledad espacial.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11308
+      y: -266
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 22ade9b6-471d-414d-b5eb-47d0e6c820e1
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "El instinto primario de buscar a la manada. Desperdici\xF3 su
+      poca energ\xEDa gritando en un desierto donde nadie iba a responderle."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11305
+      y: 374
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d2a70cdd-426e-4531-a93c-b867a7c78fdd
+    characterSpr: {fileID: 0}
+    characterName: Sistema PA
+    dialogueText: "\"Alerta de sistema. Inteligencia Artificial de navegaci\xF3n
+      corrompida por radiaci\xF3n externa. Brecha de seguridad en el n\xFAcleo de
+      datos.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11839
+      y: 80
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0d12801e-bdb4-40f0-8980-2712a05de958
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "\"Pregunta cuatro, candidato. La IA de su nave est\xE1 colapsando
+      y sugiere purgar el 50% de los datos recolectados en la misi\xF3n para reiniciar
+      sus protocolos. \xBFConf\xEDa en una m\xE1quina da\xF1ada para no estrellarse,
+      o la apaga y pilota a ciegas con instrumentos an\xE1logos?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\"Apagar la IA. Un sistema comprometido l\xF3gicamente es un riesgo t\xE1ctico
+      inaceptable. Volar\xE9 en manual.\""
+    - "\"Confiar en la IA y purgar los datos. Es la \xFAnica forma de no perder la
+      asistencia de navegaci\xF3n en este caos de escombros.\""
+    nodePosition:
+      serializedVersion: 2
+      x: 12437
+      y: 85
+      width: 728
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1bf34980-01e7-4cef-a082-6d9cd47936c4
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "Desconect\xF3 su mayor ventaja de procesamiento por no poder controlar
+      sus variables. Una muestra brutal de autosuficiencia y frialdad, Aries."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13196
+      y: -239
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 78ebd5b6-02a9-4017-9874-9bfdfa62172c
+    characterSpr: {fileID: 0}
+    characterName: Dr. Vektor
+    dialogueText: "Acaba de borrar d\xE9cadas de investigaci\xF3n de la Agencia para
+      salvar un algoritmo defectuoso. Su priorizaci\xF3n bajo p\xE1nico es cuestionable.  "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13192
+      y: 338
       width: 499
       height: 305
     soundEffect: {fileID: 0}
